@@ -27,17 +27,17 @@ through this ![website](http://shrec.ge.imati.cnr.it/shrec22_fitting/)
 dataset
 └───train
 	└───Cone
-		└───pointClouds1.txt
+		pointClouds1.txt
 			...
-		Cylinder
-		|Plane
-		|Shpere
-		|Torus
+	|Cylinder
+	|Plane
+	|Shpere
+	|Torus
 └───val
 	└───val_txt
 		└───pointClouds2000.txt
 			...
-		|val_ply
+	|val_ply
 		└───pointClouds2000.ply
 			...
 └───test
