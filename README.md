@@ -7,6 +7,7 @@ The aim of this SHREC track is to evaluate the quality of automatic algorithms f
 - [Requirements]
 - [Dataset]
 - [Data preprocessing]
+- [Classify]
 - [Trainning]
 - [Evaluation]
 
@@ -46,6 +47,12 @@ python preprocessing.py
 We provided a code to change .txt file to .ply if needed
 ```sh
 python txt2ply.py
+```
+
+## Classify
+Fitting the pointclouds and store the data in a csv file
+```sh
+python classify.py
 ```
 
 ## Training
