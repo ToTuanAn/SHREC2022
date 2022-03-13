@@ -22,7 +22,7 @@ pip install open3d
 
 ## Dataset
 Data is provided by SHREC2022. To get the the full dataset please contact them 
-through this ![website](http://shrec.ge.imati.cnr.it/shrec22_fitting/)
+through this [website](http://shrec.ge.imati.cnr.it/shrec22_fitting/)
 ```
 dataset
 └───train
