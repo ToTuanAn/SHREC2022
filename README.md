@@ -26,16 +26,16 @@ through this ![website](http://shrec.ge.imati.cnr.it/shrec22_fitting/)
 ```
 dataset
 └───train
-	└───Cone
+	|Cone
 	|Cylinder
 	|Plane
 	|Shpere
 	|Torus
-└───val
-	└───val_txt
-		val_ply
-└───test
-	└───testdata
+|val
+	|val_txt
+	|val_ply
+|test
+	|testdata
 ```
 
 ## Data preprocessing
