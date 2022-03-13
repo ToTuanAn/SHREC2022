@@ -11,10 +11,25 @@ The aim of this SHREC track is to evaluate the quality of automatic algorithms f
 ### [Evaluation](#evaluatation)
 
 ## Data preprocessing
+Given the raw data, we need to upscale the pointclouds data to a constant value. To do that, we can run the following code
+```sh
+python preprocessing.py
+```
+We provided a code to change .txt file to .ply if needed
+```sh
+python txt2ply.py
+```
 
 ## Training
+For training, we employed pointNet architecture. Pretrained models are save in the model/ directory. 
+```sh
+python train.py 
+``` 
 
 ## Evaluation 
+```sh
+python eval.py 
+``` 
 
 
 
