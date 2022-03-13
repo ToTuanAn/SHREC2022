@@ -29,7 +29,7 @@ dataset
 	└───Cone
 		└───pointClouds1.txt
 			...
-		|Cylinder
+		Cylinder
 		|Plane
 		|Shpere
 		|Torus
