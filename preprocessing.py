@@ -1,5 +1,12 @@
 
 from tqdm import tqdm
+import os 
+
+path = "RAW_DATASET_PATH"
+path_des = "UPSCALED_DATASET_PATH"
+list_folder = ["Cone/", "Cylinder/", "Plane/", "Torus/", "Shpere/"]
+N_MAX = 8100
+exp = 10**-15
 
 def read_all(file):
   file=file.split("\n")
