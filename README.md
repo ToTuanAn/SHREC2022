@@ -4,12 +4,12 @@
 The aim of this SHREC track is to evaluate the quality of automatic algorithms for fitting and recognising geometric primitives in point clouds. The goal is to identify, for each point cloud, its primitive type and some geometric descriptors. As simple primitives we mean the classical surface primitives derived from constructive solid geometry, i.e., planes, spheres, cylinders, cones and tori. We admit that some point clouds might be unfitted by one of these simple primitives.
 
 ## Table of Content
-- [Requirements]
-- [Dataset]
-- [Data preprocessing]
-- [Classify]
-- [Trainning]
-- [Evaluation]
+- Requirements
+- Dataset
+- Data preprocessing
+- Classify
+- Trainning
+- Evaluation
 
 ## Requirements
 - python=3.7
@@ -32,10 +32,10 @@ dataset
 	|Plane
 	|Shpere
 	|Torus
-|val
+───val
 	|val_txt
 	|val_ply
-|test
+───test
 	|testdata
 ```
 
